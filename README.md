@@ -24,14 +24,14 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
      - order: "zap to {{ channel }}"
    neurons:      
      - dreambox:
-        input_action: "{{ channel }}"
+         input_action: "{{ channel }}"
     
  - name: "standby"
    signals:
      - order: "switch tv off"
    neurons:      
      - dreambox:
-        input_action: "standby"
+         input_action: "standby"
 
  - name: "mute"
    signals:
@@ -39,14 +39,14 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
      - order: "switch sound off"
    neurons:      
      - dreambox:
-        input_action: "mute"
+         input_action: "mute"
  
  - name: "volup"
    signals:
      - order: "tv volume up"
    neurons:      
      - dreambox:
-        input_action: "volup"
+         input_action: "volup"
 
  - name: "voldown"
    signals:
