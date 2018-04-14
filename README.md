@@ -18,17 +18,6 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
 | dream_user       | no       | root                          |                                   |                              |
 | dream_pass       | no       |                               |                                   |                              |
 
-## Return Values
-
-Only necessary when the neuron use a template to say something
-
-| name      | description                        | type       | sample                    |
-|-----------|------------------------------------|------------|---------------------------|
-| value_key | dictionary containing all the data | dictionary | {"name":"me", "email": 2} |
-| value_key | list of value                      | list       | ["val1", "val2", "val3"]  |
-| value_key | string value                       | string     | "2"                       |
-|
-
 ## Synapses example
 
 Description of what the synapse will do
