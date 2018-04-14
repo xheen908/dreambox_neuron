@@ -13,16 +13,16 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
 
 | parameter        | required | default                       | choices                           | comments                     |
 |------------------|----------|-------------------------------|-----------------------------------|------------------------------|
-| db_ip            | yes      | 192.168.1.2                   |                                   |                              |
-| db_port          | no       | 80                            |                                   |                              |
-| db_user          | no       | root                          |                                   |                              |
-| db_pass          | no       |                               |                                   |                              |
+| dream_ip         | yes      | 192.168.1.2                   |                                   |                              |
+| dream_port       | no       | 80                            |                                   |                              |
+| dream_user       | no       | root                          |                                   |                              |
+| dream_pass       | no       |                               |                                   |                              |
 | standby          | no       |                               |                                   |                              |
-| bt_volup         | no       |                               |                                   |                              |
-| bt_vol           | no       |                               |                                   |                              |
-| bt_mute          | no       |                               |                                   |                              |
-| bt_chanup        | no       |                               |                                   |                              |
-| bt_chandown      | no       |                               |                                   |                              |
+| vol+             | no       |                               |                                   |                              |
+| vol-             | no       |                               |                                   |                              |
+| mute+            | no       |                               |                                   |                              |
+| chan+            | no       |                               |                                   |                              |
+| chan+            | no       |                               |                                   |                              |
 
 ## Return Values
 
