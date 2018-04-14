@@ -18,7 +18,6 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
 
 ## Synapses example
 
-Description of what the synapse will do
 ```yml
  - name: "zapto"
    signals:
