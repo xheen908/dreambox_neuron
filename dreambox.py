@@ -1,12 +1,9 @@
 import request
 
-from kalliope.core.NeuronModule import NeuronModule
-class Dreambox(NeuronModule):
-
 logging.basicConfig()
 logger = logging.getLogger("kalliope")
 
-
+from kalliope.core.NeuronModule import NeuronModule
 class Dreambox(NeuronModule):
     def __init__(self, **kwargs):
         super(Dreambox, self).__init__(**kwargs)
