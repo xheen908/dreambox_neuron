@@ -1,8 +1,6 @@
 # Dreambox Neuron
 
-## Synopsis
-
-Enigma2 Remote Controll Neuron 
+## Control Enigma2 based STB by using openwebif API
 
 ## Installation
 ```bash
