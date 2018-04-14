@@ -1,4 +1,4 @@
-1import requests
+import requests
 
 ## openwebif 
 ip = "192.168.1.114"
