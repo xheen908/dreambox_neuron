@@ -17,12 +17,6 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
 | dream_port       | no       | 80                            |                                   |                              |
 | dream_user       | no       | root                          |                                   |                              |
 | dream_pass       | no       |                               |                                   |                              |
-| standby          | no       |                               |                                   |                              |
-| vol+             | no       |                               |                                   |                              |
-| vol-             | no       |                               |                                   |                              |
-| mute+            | no       |                               |                                   |                              |
-| chan+            | no       |                               |                                   |                              |
-| chan+            | no       |                               |                                   |                              |
 
 ## Return Values
 
