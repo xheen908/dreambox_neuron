@@ -13,10 +13,15 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
 
 | parameter        | required | default                       | choices                           | comments                     |
 |------------------|----------|-------------------------------|-----------------------------------|------------------------------|
-| parameter_name_1 | yes      |                               |                                   | description of the parameter |
-| parameter_name_2 | no       |                               | possible_value_1,possible_value_2 | description of the parameter |
-| parameter_name_3 | yes      | default_value_if_not_provided |                                   | description of the parameter |
-
+| db_ip            | yes      | 192.168.1.2                   |                                   |                              |
+| db_port          | no       | 80                            |                                   |                              |
+| db_user          | no       | root                          |                                   |                              |
+| standby          | no       |                               |                                   |                              |
+| bt_volup         | no       |                               |                                   |                              |
+| bt_vol           | no       |                               |                                   |                              |
+| bt_mute          | no       |                               |                                   |                              |
+| bt_chanup        | no       |                               |                                   |                              |
+| bt_chandown      | no       |                               |                                   |                              |
 
 ## Return Values
 
@@ -27,7 +32,7 @@ Only necessary when the neuron use a template to say something
 | value_key | dictionary containing all the data | dictionary | {"name":"me", "email": 2} |
 | value_key | list of value                      | list       | ["val1", "val2", "val3"]  |
 | value_key | string value                       | string     | "2"                       |
-
+|
 
 ## Synapses example
 
