@@ -15,8 +15,8 @@ class Dreambox(NeuronModule):
         self.dreambox_port = kwargs.get('dreambox_port', 80)
         self.dreambox_login = kwargs.get('dreambox_login, None)
         self.dreambox_password = kwargs.get('dreambox_password' None)
-        self.dreambox_ircommand = kwargs.get('dreambox_ircommand', /web/remotecontrol?command=)
-        self.dreambox_zap = kwargs.get('dreambox_zap', /web/zap?sRef=)
+        self.dreambox_ircommand = kwargs.get('dreambox_ircommand', '/web/remotecontrol?command=')
+        self.dreambox_zap = kwargs.get('dreambox_zap', '/web/zap?sRef=')
         
         if self._is_parameters_ok():
             if self.Dreambox_login is not None:
