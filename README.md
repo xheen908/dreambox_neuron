@@ -92,17 +92,6 @@ Description of what the synapse will do
 
 ```
 
-
-## Templates example 
-
-Description of the template
-```
-This is a var {{ var }} 
-{% for item in items %}
- This is the  {{ item }}  
-{% endfor %}
-```
-
 ## Notes
 
 > **Note:** This is an important note concerning the neuron
