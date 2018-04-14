@@ -1,11 +1,9 @@
 import requests
 
 ## openwebif 
-ip = "192.168.1.114"
-url = "http://"+ip
-
-#port = "80"
-#url = "http://"+ip+":"+port
+ip = "192.168.1.2"
+port = "80"
+url = "http://"+ip+":"+port
 
 #u = "2"
 #pw = "1234567"
