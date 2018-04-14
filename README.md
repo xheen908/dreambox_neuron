@@ -11,8 +11,6 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
 
 ## Options
 
-(usage of a [table generator](http://www.tablesgenerator.com/markdown_tables) is recommended)
-
 | parameter        | required | default                       | choices                           | comments                     |
 |------------------|----------|-------------------------------|-----------------------------------|------------------------------|
 | parameter_name_1 | yes      |                               |                                   | description of the parameter |
