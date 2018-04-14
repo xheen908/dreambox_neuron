@@ -33,16 +33,65 @@ Only necessary when the neuron use a template to say something
 
 Description of what the synapse will do
 ```yml
- - name: "type here your name"
+ - name: "zapto"
    signals:
-     - order: "this is what I have to say to run this synapse"
+     - order: "zap to {{ channel }}"
    neurons:      
-     - neuron_name:
-        parameter: "value"
-        parameter: "value"
-        file_template: template_name.j2
+     - dreambox:
+        zap: "{{ channel }}"
     
+ - name: "standby"
+   signals:
+     - order: "switch tv off"
+   neurons:      
+     - dreambox:
+        standby: "standby"
+
+ - name: "mute"
+   signals:
+     - order: "switch sound on"
+     - order: "switch sound off"
+   neurons:      
+     - dreambox:
+        mute: "mute"
+ 
+ - name: "volup"
+   signals:
+     - order: "tv volume up"
+   neurons:      
+     - dreambox:
+        volup: "volup"
+
+ - name: "voldown"
+   signals:
+     - order: "tv volume down"
+   neurons:      
+     - dreambox:
+        volup: "volup" 
+
+ - name: "setvol"
+   signals:
+     - order: "set volume {{ num }}%"
+   neurons:      
+     - dreambox:
+        setvol: "setvol"
+
+ - name: "back"
+   signals:
+     - order: "back"
+   neurons:      
+     - dreambox:
+        back: "back"
+
+ - name: "timeshift"
+   signals:
+     - order: "timeshift"
+   neurons:      
+     - dreambox:
+        timeshift: "timeshift"
+
 ```
+
 
 ## Templates example 
 
