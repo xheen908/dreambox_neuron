@@ -16,6 +16,7 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
 | db_ip            | yes      | 192.168.1.2                   |                                   |                              |
 | db_port          | no       | 80                            |                                   |                              |
 | db_user          | no       | root                          |                                   |                              |
+| db_pass          | no       |                               |                                   |                              |
 | standby          | no       |                               |                                   |                              |
 | bt_volup         | no       |                               |                                   |                              |
 | bt_vol           | no       |                               |                                   |                              |
