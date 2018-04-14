@@ -1,0 +1,12 @@
+name: "dreambox"
+type: "neuron"
+author: "xheen908"
+
+kalliope_supported_version:
+    - 0.5
+
+tags:
+    - "dreambox"
+    - "enigma2"
+    - "dreambox kalliope"
+    - "enigma2 kalliope"
