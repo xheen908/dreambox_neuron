@@ -1,6 +1,6 @@
 # Dreambox Neuron
 
-## Control Enigma2 based STB by using openwebif API
+## Control Enigma2 based STB with Kalliope using openwebif API
 
 ## Installation
 ```bash
