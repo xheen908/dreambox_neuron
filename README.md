@@ -1,2 +1,2 @@
-# enigma2_neuron
+# Dreambox Neuron
 Enigma2 Remote Controll Neuron 
