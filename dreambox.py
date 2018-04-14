@@ -2,10 +2,11 @@ import requests
 
 ## openwebif 
 ip = "192.168.1.2"
-port = "80"
-#login = "2"
-#pw = "1234567"
-#url = "http://"+login+":"+pw+"@"+ip+":"+port
+p = "80"
+
+#l = "2"
+#p = "1234567"
+#u = "http://"+l+":"+pw+"@"+ip+":"+p
 
 u = "http://"+ip+":"+port
 r = u+"/web/remotecontrol?command="
