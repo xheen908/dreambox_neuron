@@ -13,7 +13,7 @@ class Dreambox(NeuronModule):
         # the args from the neuron configuration
         self.dreambox_ip = kwargs.get('dreambox_ip', '192.168.1.114')
         self.dreambox_port = kwargs.get('dreambox_port', 80)
-        self.dreambox_login = kwargs.get('dreambox_login, None)
+        self.dreambox_login = kwargs.get('dreambox_login', None)
         self.dreambox_password = kwargs.get('dreambox_password' None)
         self.dreambox_ircommand = kwargs.get('dreambox_ircommand', '/web/remotecontrol?command=')
         self.dreambox_zap = kwargs.get('dreambox_zap', '/web/zap?sRef=')
