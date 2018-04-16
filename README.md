@@ -19,7 +19,7 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
 ## Synapses example
 
 ```yml
-  - name: "enigma-one"
+  - name: "channel"
     signals:
       - order: "{{ channel }}"
     neurons:
@@ -28,7 +28,7 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
           channel: "{{ channel }}"
           file: "resources/neurons/enigma/channels.yml"
   
-  - name: "enigma-two"
+  - name: "command"
     signals:
       - order: "{{ cmd }}"
     neurons:
