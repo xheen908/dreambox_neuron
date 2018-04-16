@@ -1,12 +1,9 @@
-name: "dreambox"
+name: "enigma"
 type: "neuron"
-author: "xheen908"
+author: "corus87 & xheen908"
 
 kalliope_supported_version:
-    - 0.5
+    - 0.4
 
 tags:
-    - "dreambox"
-    - "enigma2"
-    - "dreambox kalliope"
-    - "enigma2 kalliope"
+    - "engima control"
