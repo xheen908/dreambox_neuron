@@ -24,7 +24,7 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
       - order: "{{ channel }}"
     neurons:
       - enigma:
-          dream_ip: 192.168.1.2
+          ip: 192.168.1.2
           channel: "{{ channel }}"
           file: "resources/neurons/enigma/channels.yml"
   
@@ -33,7 +33,7 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
       - order: "{{ cmd }}"
     neurons:
       - enigma:
-          dream_ip: 192.168.1.2
+          ip: 192.168.1.2
           command: "{{ cmd }}"
           file: "resources/neurons/enigma/commands.yml"
 
