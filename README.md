@@ -11,10 +11,10 @@ kalliope install --git-url https://github.com/xheen908/dreambox_neuron.git
 
 | parameter        | required | default                       | choices                           | comments                     |
 |------------------|----------|-------------------------------|-----------------------------------|------------------------------|
-| dream_ip         | yes      | 192.168.1.2                   |                                   |                              |
-| dream_port       | no       | 80                            |                                   |                              |
-| dream_user       | no       |                               |                                   |                              |
-| dream_pass       | no       |                               |                                   |                              |
+| ip               | yes      | 192.168.1.2                   |                                   |                              |
+| port             | no       | 80                            |                                   |                              |
+| user             | no       |                               |                                   |                              |
+| pass             | no       |                               |                                   |                              |
 
 ## Synapses example
 
